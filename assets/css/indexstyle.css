@@ -1,5 +1,5 @@
 * { 
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  boder: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -19,23 +19,18 @@ html {
 
 #wrapper {
 	min-height: 100%;
-	position:relative;
+	min-width: 100%;
+	position: relative;
 }
 
-#footer {
-	height: 40px;
-	width: 100%;
-	background-color: gray;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-}
-
+/* Styling for the header*/
 .header {
 	height: 90px;
-	background-color: white;
+	background: white;
+	border-bottom: 1px solid #dfdfdf;
 }
 
+/* Styling for name */
 #name {
 	height: 100%;
 	width: 275px;
@@ -47,6 +42,7 @@ html {
 	color: white;
 }
 
+/* Horizontally and vertically centers name */
 h1 {
 	position: relative;
 	text-align: center;
@@ -58,14 +54,17 @@ h1 {
 	height:100%;
 	width: 400px;
 	position: relative;
-	right: 242px;
+	left: 780px;
 	bottom: 92px;
-	float: right;
+	float: left;
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
 	text-align: center;
+
 }
+
+/* Styling for navigation bar text */
 
 #about {
 	display: inline-block;
@@ -98,7 +97,7 @@ h1 {
   	text-align: center;
 }
 
-.aboutme {
+.bodycontainer {
 	position: relative;
 	top: 40px;
 	left: 155px;
@@ -106,8 +105,8 @@ h1 {
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	background-color: white;
 }
-.aboutheader {
-	position:relative;
+.bodyheader {
+	position: relative;
 	margin: 0px 30px 0px 30px;
 	height: 100px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -116,14 +115,17 @@ h1 {
 	border-bottom: 3px solid #dfdfdf;
 }
 
-#aboutheadtext {
+/* styling for content header text */
+h2 {
 	position: relative;
+	float:left;
+	right: 372px;
 	top: 50%;
 	transform: translateY(-50%);
 }
 
 .content {
-	margin: 30px 30px 35px 30px;	
+	margin: 30px 30px 30px 30px;	
 }
 
 #profpic {
@@ -134,7 +136,7 @@ h1 {
 	padding: 0px 25px 20px 0px;
 }
 
-#aboutbody {
+p {
 	position: relative;
 	line-height: 30px;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -144,14 +146,15 @@ h1 {
 }
 
 .connect {
-	float: right;
+	float: left;
 	width: 270px;
-	height: 200px;
-	position: relative;
-	right: 240px;
-	bottom: 458px;
+	height: 205px;
+	position: fixed;
+	left: 848px;
+	bottom: 460px;
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	background-color: white;
+	max-height: ;
 }
 
 .connectheader {
@@ -169,13 +172,7 @@ h1 {
 	margin: 25px 30px 0px 30px
 }
 
-#connectheadtext {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-
-}
-
+/* Styling for social media images */
 #gitHub {
 	width: 60px;
 	height: 60px;
@@ -193,7 +190,31 @@ h1 {
 	float:right;
 }
 
-#bottom-footer {
-	height: 0px;
-	text-align:center;
+
+.projectsleft {
+	width: 265px;
+	height: 200px;
+	position: relative;
+	display: inline-block;
+	margin: 0px 50px 45px 0px;
+}
+
+.projectsright {
+	width: 265px;
+	height: 200px;
+	position: relative;
+	display: inline-block;
+}
+
+
+h3 {
+	position: relative;
+	text-align: center;
+	top: 133px;
+	height: 55px;
+	line-height: 55px;
+	background: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	color: white;
 }
