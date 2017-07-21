@@ -1,5 +1,5 @@
 * { 
-  boder: 1px solid rgba(0, 0, 0, 0.3);
+  borer: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -277,4 +277,10 @@ form {
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
+}
+
+a {
+	color: #3b3a30;
+	text-decoration:none;
+
 }
